@@ -1,0 +1,34 @@
+[
+    {
+        "nome": "Persa",
+        "img": "/assets/img/gato-8.gif"
+    },
+    {
+        "nome": "siames",
+        "img": "/assets/img/gato-2.jpg"
+    },
+    {
+        "nome": "Vira-lata",
+        "img": "/assets/img/gato-3.jpg"
+    },
+    {
+        "nome": "Azul Russo",
+        "img": "/assets/img/gato-4.jpg"
+    },
+    {
+        "nome": "Ragdoll",
+        "img": "/assets/img/gato-5.jpg"
+    },
+    {
+        "nome": "Sphynx",
+        "img": "/assets/img/gato-6.jpg"
+    },
+    {
+        "nome": "Maine coon",
+        "img": "/assets/img/gato-7.gif"
+    },
+    {
+        "nome": "australiano",
+        "img": "/assets/img/gato-1.jpg"
+    }
+]

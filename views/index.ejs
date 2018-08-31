@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<%- include('shared/head') %>
+<body>
+    <%- include('shared/header') %>
+    <link rel="stylesheet" href="/assets/estilo.css">
+    <h1>Bem vindo ao CatRitchers</h1>
+    <h2>Ultimas noticias!</h2>
+    <section>
+        <div>
+            <iframe src="https://www.youtube.com/watch?v=06LYZMclS3I" frameborder="0"></iframe>
+        </div>
+    </section>
+    
+    <section class="form">
+        <form method="POST" action="/">
+            <h3>DOE UM GATINHO!</h3>
+            <label>Raça:</label>
+            <input type="text" placeholder="Qual a raça dele?" name="email" id="">
+            <div class="genero">
+                <label>Gênero:</label>
+                <label class="radio">
+                    <div class="cai">
+                        <input type="radio" name="gender" value="macho"> Macho
+                    </div>
+                    <div class="cai">
+                    <input type="radio" name="gender" value="femea"> Fêmea 
+                    </div>
+                </label>
+            </div>
+            <textarea name="Mensagem" placeholder="Fale um pouco sobre o animalzinho!" cols="" rows="10"></textarea>
+            <button>Enviar</button>
+        </form>
+    </section>
+    <%- include('shared/footer') %>
+</body>
+</html>

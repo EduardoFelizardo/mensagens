@@ -1,0 +1,18 @@
+[
+    {
+        "nome":"Bill Gates",
+        "img": "/assets/img/foto-1.jpg"
+    },
+    {
+        "nome": "Camila         ",
+        "img": "/assets/img/foto-2.jpg"
+    },
+    {
+        "nome": "Marck zuck     ",
+        "img": "/assets/img/foto-3.jpg"
+    },
+    {
+        "nome": "Gabriel Travassos",
+        "img": "/assets/img/foto-4.jpg"
+    }
+]

@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    flex-direction: column;
+    text-align: center;
+    background-color: darkgrey;
+    font-family: 'Indie Flower', cursive;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+header{
+    top: 0;
+    margin: 0;
+    display: flex;
+    color: white;
+    background-color: black;
+    justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+    height: 65px;
+}
+
+header img{
+    display: flex;
+    border-radius: 50px;
+    background-color: white;
+    margin-top: 5px;
+    margin-right: 35px;
+    height: 50px;
+    width: 50px;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav a{
+    font-size: 20pt;
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.form{
+    width: 800px;
+    max-width: 100%;
+    margin:20px;
+    margin-top: 50px;
+}
+
+.form input, .form textarea{
+    width: 100%;
+    padding: 10%;
+    display: block;
+    box-sizing: border-box;
+    margin: 10px 0;
+    border: 1 solid #aaa;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.radio{
+    flex-direction: row;
+}
+
+.cai{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+}
+
+.genero{
+    display: flex;
+    flex-direction: row;
+}
+
+.linha{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;    
+}
+
+section div img{
+    border-radius: 50%;
+    border: solid 5px black;  
+}
+
+h1{
+    margin-top: 80px;
+}
+
+h3{
+    margin-left: 5px;
+}
+
+section{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+/* section div{
+    background-color: white;
+    border-radius: 100%;
+    border: solid 2px black;
+} */
+
+section div p{
+    display: flex;
+    width: 600px;
+    padding: 70px 0 70px 0; 
+}
+
+.depoimento2{
+    display: flex;
+    align-items: center;
+}
+
+.depoimento{
+    display: flex;
+    align-items: center;
+    margin: 20px 0 20px 0;
+    width: 450px;
+}
+
+img{
+    border: dashed 2px black    ;
+    border-radius: 30%;
+    display: flex;
+    height: 200px;
+    width: 250px;
+}
+
+footer a{
+    color: black;    
+    text-decoration: none;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+}
+
+footer{ 
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 100px;
+    justify-content: center;
+}
+
+footer nav{
+    display: flex;
+    background-color: black;
+    justify-content: space-evenly;
+}
+
+footer a, footer p{
+    color: white;
+    margin: 0;
+    font-size: 15pt;    
+}

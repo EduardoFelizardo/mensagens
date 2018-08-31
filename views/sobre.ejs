@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<%- include('shared/head') %>
+<body>
+    <%- include('shared/header') %>
+    <h1>Sobre</h1>
+    <p>
+        Somos uma plataforma que disponibiliza gatos que estão sem donos para serem doados ou comprados(dependendo da raça)!
+    </p>
+    <section>
+        <h3>Os criadores</h3>
+            <div class="linha">
+                    <% for(let foto of sobre){ %>
+                        <div class="depoimento">
+                    <img src="<%= foto.img %>" alt="">
+                    <h3><%= foto.nome %></h3>
+                </div>
+                <% } %>
+        </div>
+    </section>
+    <!-- <section>
+        <div class="depoimento2">
+            <p>Comprei um gato siames e ele esta ficando tão bonitinho, adorei, divulguei o site para a familia toda!
+                Proxima meta é um dogzinho!
+            </p>
+            <img src="/assets/img/mark.jpg" alt="">
+        </div>
+    </section>
+    <section>
+        <div class="depoimento">
+            <img src="/assets/img/bill.jpg" alt="">
+            <p>Comprei um gato siames e ele esta ficando tão bonitinho, adorei, divulguei o site para a familia toda!
+                Proxima meta é um dogzinho!
+            </p>
+        </div>
+    </section> -->
+    <%- include('shared/footer') %>
+</body>
+</html>
